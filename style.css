@@ -3,35 +3,97 @@ body {
   font-family: "Roboto Mono", monospace;
   font-weight: 300;
 }
-.weatherApp {
-  background: white;
-  max-width: 500px;
-  margin: 30px;
-  box-shadow: 0 30px 50px rgba(169, 163, 183, 0.08);
-  border-radius: 16px;
-  padding: 30px;
-}
 
-h1 {
+header {
+  border-bottom: 1px;
+  padding: 0 0 30px 0;
+}
+.weather-app-city {
   font-family: "Merriweather Sans", sans-serif;
   color: dimgrey;
   opacity: 50%;
-}
-footer {
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 200;
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+  padding: 0 0 10px 0;
 }
 
-a {
-  list-style: none;
+.weather-app-details {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 200;
+}
+.weather-app-details strong {
+  color: rgb(233, 117, 117);
 }
 
 .search-form-input {
   background-color: rgb(244, 229, 229);
   border: none;
   border-radius: 6px;
-  width: 60%;
-  padding: 15px;
+  width: 75%;
+  padding: 15px 30px;
 }
 
-.search
+.search-form-btn {
+  border: none;
+  background-color: rgb(232, 191, 191);
+  margin-left: 5px;
+  padding: 15px 30px;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+}
+main {
+  padding: 30px 0;
+}
+.weatherApp {
+  background: white;
+  max-width: 600px;
+  margin: 45px auto;
+  box-shadow: 0 30px 50px rgba(169, 163, 183, 0.08);
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  border-top: 1px;
+  padding: 60px 0 0 0;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  opacity: 60%;
+}
+
+a {
+  color: rgb(233, 117, 117);
+  text-decoration: none;
+}
+
+.weather-app-temperature-container {
+  display: flex;
+}
+
+.weather-app-temp {
+  font-size: 88px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: rgb(233, 117, 117);
+}
+
+.weather-app-icon {
+  font-size: 44px;
+  margin-top: 22px;
+}
+
+.weather-app-unit {
+  margin-top: 16px;
+  font-size: 28px;
+  color: rgb(233, 117, 117);
+}
