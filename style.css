@@ -15,5 +15,23 @@ body {
 h1 {
   font-family: "Merriweather Sans", sans-serif;
   color: dimgrey;
-  opacity: 60%;
+  opacity: 50%;
 }
+footer {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 200;
+}
+
+a {
+  list-style: none;
+}
+
+.search-form-input {
+  background-color: rgb(244, 229, 229);
+  border: none;
+  border-radius: 6px;
+  width: 60%;
+  padding: 15px;
+}
+
+.search
