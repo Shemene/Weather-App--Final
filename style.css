@@ -1,7 +1,6 @@
 body {
   background-color: rgb(244, 229, 229);
   font-family: "Roboto Mono", monospace;
-  font-weight: 300;
 }
 
 header {
@@ -70,16 +69,18 @@ main {
   font-weight: bold;
   margin-left: 10px;
   color: rgb(233, 117, 117);
+  line-height: 88px;
 }
 
 .weather-app-icon {
-  font-size: 44px;
+  width: 50px;
+  height: 50px;
   margin-top: 22px;
 }
 
 .weather-app-unit {
-  margin-top: 16px;
-  font-size: 28px;
+  margin-top: 10px;
+  font-size: 25px;
   color: rgb(233, 117, 117);
 }
 footer {
