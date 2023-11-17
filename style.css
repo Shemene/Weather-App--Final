@@ -43,6 +43,11 @@ header {
   color: white;
   font-size: 16px;
 }
+.search-form-btn:hover {
+  transition: all 200ms;
+
+  background: rgb(226, 133, 133);
+}
 main {
   padding: 30px 0;
 }
@@ -50,7 +55,7 @@ main {
   background: white;
   max-width: 600px;
   margin: 45px auto;
-  box-shadow: 0 30px 50px rgba(169, 163, 183, 0.08);
+  box-shadow: 0 35px 50px rgba(0, 0, 0, 0.09);
   border-radius: 16px;
   padding: 30px;
 }
