@@ -30,16 +30,19 @@
           <div>
             <h1 id="city" class="weather-app-city"></h1>
             <p class="weather-app-details">
-              Monday:14:52, <span id="description"><!--scatterd clouds--></span>
+              <span id="time"> <!--TIME and day real time--></span>
+              <span id="description"><!--scatterd clouds--></span>
             </p>
             <p class="weather-app-details">
-              Humidity: <strong id="humidity"><!--huidity real time--></strong>,
-              Wind: <strong>3.13km/h</strong>
+              Humidity:<strong id="humidity"><!--huidity real time--></strong>,
+              Wind:<strong id="wind-speed"
+                ><!--wind speed real time-->Km/h</strong
+              >
             </p>
           </div>
 
           <div class="weather-app-temperature-container">
-            <div class="weather-app-icon">🌞</div>
+            <div id="emoji" class="weather-app-icon"><!--real emoji--></div>
             <div id="weather-app-temperature" class="weather-app-temp"></div>
             <div class="weather-app-unit">°C</div>
           </div>
