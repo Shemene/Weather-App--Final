@@ -60,21 +60,6 @@ main {
   display: flex;
   justify-content: space-between;
 }
-footer {
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bold;
-  border-top: 1px;
-  padding: 60px 0 0 0;
-  text-align: center;
-  font-size: 15px;
-  color: black;
-  opacity: 60%;
-}
-
-a {
-  color: rgb(233, 117, 117);
-  text-decoration: none;
-}
 
 .weather-app-temperature-container {
   display: flex;
@@ -96,4 +81,19 @@ a {
   margin-top: 16px;
   font-size: 28px;
   color: rgb(233, 117, 117);
+}
+footer {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  border-top: 1px;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  opacity: 60%;
+}
+
+a {
+  color: rgb(233, 117, 117);
+  text-decoration: none;
 }
