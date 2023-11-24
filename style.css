@@ -120,3 +120,8 @@ a {
 .weather-forecast-temperature-min {
   opacity: 0.5;
 }
+.weather-forecast-item {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
