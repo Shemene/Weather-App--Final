@@ -115,13 +115,18 @@ a {
 }
 
 .weather-forecast-temperatures {
-  font-size: 13px;
+  font-size: 20px;
 }
 .weather-forecast-temperature-min {
   opacity: 0.5;
 }
 .weather-forecast-item {
   display: inline-block;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+weather-forecast-icon {
+  width: 50px;
+  height: 50px;
+  display: block;
 }
